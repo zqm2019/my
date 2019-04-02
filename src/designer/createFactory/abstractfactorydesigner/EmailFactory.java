@@ -1,12 +1,8 @@
-/**
- * Copyright (C) 2006-2019 Tuniu All rights reserved
- */
+
 package designer.createFactory.abstractfactorydesigner;
 
 import designer.createFactory.EmailReceiver;
 import designer.createFactory.EmailSender;
-import designer.createFactory.MessageReceiver;
-import designer.createFactory.MessageSender;
 import designer.createFactory.Receiver;
 import designer.createFactory.Sender;
 
