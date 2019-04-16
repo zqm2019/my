@@ -23,6 +23,8 @@ public class Demo {
         LocalDate localDate1 = LocalDate.of(2019, 04, 01);
         LocalDate localDate2 = LocalDate.of(2019, 04, 11);
         LocalDate localDate = LocalDate.now();
+        String a = LocalDateTime.now().format(dateTimeFormatter);
+        System.out.println(a);
         System.out.println(localDate);
         System.out.println(localDate.plusDays(1).format(dateTimeFormatter1));
         //当前日期往后推一年
