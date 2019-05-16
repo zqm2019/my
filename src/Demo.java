@@ -1,4 +1,5 @@
 import java.text.SimpleDateFormat;
+import java.time.DayOfWeek;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -12,21 +13,31 @@ import java.util.Date;
  * 测试时间类的使用 ZoneId 时区
  * Date: 2019-03-20
  *
- * @author zhaqianming
+ * @author zqm
  */
 public class Demo {
-
+ static  String stringD= "2019-05-05";
     public static void main(String[] args) {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         DateTimeFormatter dateTimeFormatter1 = DateTimeFormatter.ofPattern("yyyy-MM-dd");
+        DateTimeFormatter dateTimeFormatter2 = DateTimeFormatter.ofPattern("HH:mm:ss");
         LocalDate localDate1 = LocalDate.of(2019, 04, 01);
         LocalDate localDate2 = LocalDate.of(2019, 04, 11);
         LocalDate localDate = LocalDate.now();
+       // LocalTime localTime = LocalTime.now();
         String a = LocalDateTime.now().format(dateTimeFormatter);
         System.out.println(a);
         System.out.println(localDate);
+        for (int i=0;i<10;i++){
+            if ((LocalDateTime.now().format(dateTimeFormatter1).compareTo(stringD))>=0){
+                System.out.println("zhende ");
+                stringD =LocalDate.now().plusDays(1).format(dateTimeFormatter1);
+            }
+        }
+
         System.out.println(localDate.plusDays(1).format(dateTimeFormatter1));
+        System.out.println(LocalDateTime.now().with(DayOfWeek.MONDAY).format(dateTimeFormatter));
         //当前日期往后推一年
         System.out.println(localDate.plusYears(1));
         //当前日期往后推半年
@@ -54,11 +65,17 @@ public class Demo {
         LocalDateTime localDateTime = LocalDateTime.now();
         LocalTime localTime = LocalTime.now();
         System.out.println(localTime);
+        String aaaa = localTime.format(dateTimeFormatter2);
+        System.out.println(localTime.format(dateTimeFormatter2));
         Date date1 = LocalDateTimeToUdate(localDateTime);
         System.out.println(date1);
         System.out.println(simpleDateFormat.format(date1));
         Date date2 = LocalTimeToUdate(localDate, localTime);
         System.out.println(date2);
+
+        if (aaaa.compareTo("13:15:00")>0){
+            System.out.println(true);
+        }
 
         System.out.println(DateToLocateDate(new Date()));
         System.out.println(localDateTime.format(dateTimeFormatter));
@@ -159,6 +176,5 @@ public class Demo {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return simpleDateFormat.format(calendar.getTime());
     }
-
 
 }

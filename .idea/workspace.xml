@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0d9745d-d4e2-4eaa-9007-2dd47f991620" name="Default Changelist" comment="适配器模式-接口方式">
+    <list default="true" id="f0d9745d-d4e2-4eaa-9007-2dd47f991620" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designer/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/designer/readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designer/structure/bridge/Bridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designer/structure/bridge/Bridge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/designer/structure/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/designer/structure/readme" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,36 +16,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designer/structure/readme">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designer/structure/bridge/SourceAble.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designer/structure/bridge/Bridge.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+            <state relative-caret-position="98">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="94" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
               <folding>
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#379#380#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="803" column="21" selection-start-line="803" selection-start-column="21" selection-end-line="803" selection-end-column="21" />
+              <folding>
+                <element signature="e#32818#32819#0" expanded="true" />
+                <element signature="e#32890#32891#0" expanded="true" />
+                <element signature="e#78587#78588#0" expanded="true" />
+                <element signature="e#78644#78645#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,19 +48,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-              <folding>
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/designer/readme">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="195">
+              <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -75,11 +64,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/designer/structure/bridge/SubSourceOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="165">
               <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding>
                 <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -88,39 +77,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/designer/structure/bridge/SubSourceTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="165">
               <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
               <folding>
                 <element signature="e#200#201#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designer/structure/facade/Disk.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#207#208#0" expanded="true" />
-                <element signature="e#235#236#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/designer/structure/facade/Memery.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-              <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,7 +90,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/designer/structure/facade/FacadeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
+            <state relative-caret-position="570">
               <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
             </state>
           </provider>
@@ -162,11 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/designer/createFactory/EmailReceiver.java" />
-        <option value="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/SenderFactory.java" />
-        <option value="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/abstractfactorydesigner/TestAbstractFactoryDesigner.java" />
-        <option value="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/AbstractFactory.java" />
-        <option value="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/EmailSenderFactory.java" />
         <option value="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/ReceiverFactory.java" />
         <option value="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/methodOne/ReceiverFactory.java" />
         <option value="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/methodOne/SenderFactory.java" />
@@ -192,7 +148,6 @@
         <option value="$PROJECT_DIR$/src/designer/createFactory/singleton/Singleton.java" />
         <option value="$PROJECT_DIR$/src/designer/createFactory/readme" />
         <option value="$PROJECT_DIR$/src/designer/createFactory/prototype/Prototype.java" />
-        <option value="$PROJECT_DIR$/src/Demo.java" />
         <option value="$PROJECT_DIR$/src/designer/structure/AdapterPattern/InterfaceAdapterDemo.java" />
         <option value="$PROJECT_DIR$/src/designer/structure/AdapterPattern/AbstractClas.java" />
         <option value="$PROJECT_DIR$/src/designer/structure/decorator/Source.java" />
@@ -205,20 +160,27 @@
         <option value="$PROJECT_DIR$/src/designer/structure/facade/Disk.java" />
         <option value="$PROJECT_DIR$/src/designer/structure/facade/Memery.java" />
         <option value="$PROJECT_DIR$/src/designer/structure/facade/FacadeDemo.java" />
-        <option value="$PROJECT_DIR$/src/designer/structure/readme" />
         <option value="$PROJECT_DIR$/src/designer/structure/bridge/SourceAble.java" />
         <option value="$PROJECT_DIR$/src/designer/structure/bridge/SubSourceOne.java" />
         <option value="$PROJECT_DIR$/src/designer/structure/bridge/SubSourceTwo.java" />
         <option value="$PROJECT_DIR$/src/designer/structure/bridge/BridgeDemo.java" />
-        <option value="$PROJECT_DIR$/src/designer/structure/bridge/Bridge.java" />
         <option value="$PROJECT_DIR$/src/designer/structure/bridge/MyBridgeDemo.java" />
         <option value="$PROJECT_DIR$/src/designer/readme" />
+        <option value="$PROJECT_DIR$/src/designer/structure/composite/CompositePatternDemo.java" />
+        <option value="$PROJECT_DIR$/src/designer/structure/composite/Employee.java" />
+        <option value="$PROJECT_DIR$/src/designer/structure/readme" />
+        <option value="$PROJECT_DIR$/src/designer/structure/bridge/Bridge.java" />
+        <option value="$PROJECT_DIR$/src/Demo.java" />
+        <option value="$PROJECT_DIR$/src/mybatis/DaoExampleService.java" />
+        <option value="$PROJECT_DIR$/src/mybatis/PageUtil.java" />
+        <option value="$PROJECT_DIR$/src/mybatis/PageHelper.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="710" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -231,6 +193,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -241,33 +204,7 @@
             <path>
               <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designer" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="designer" type="462c0819:PsiDirectoryNode" />
-              <item name="structure" type="462c0819:PsiDirectoryNode" />
-              <item name="bridge" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
@@ -277,13 +214,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555557135062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558021721735" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -293,13 +229,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mybatis" />
       <recent name="designer.structure.bridge" />
       <recent name="designer.createFactory.builderpattern" />
       <recent name="designer.createFactory.abstractfactorydesigner.methodOne" />
       <recent name="designer.createFactory.abstractfactorydesigner" />
-      <recent name="designer.createFactory" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/mybatis" />
       <recent name="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner" />
     </key>
   </component>
@@ -315,35 +252,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyBridgeDemo">
-    <configuration name="FacadeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designer.structure.facade.FacadeDemo" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designer.structure.facade.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InterfaceAdapterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designer.structure.AdapterPattern.InterfaceAdapterDemo" />
-      <module name="FirstProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designer.structure.AdapterPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyBridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designer.structure.bridge.MyBridgeDemo" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Bridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designer.structure.bridge.Bridge" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
@@ -355,12 +266,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designer.structure.decoratorAndProxy.ProxyDemo" />
+    <configuration name="CompositePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designer.structure.composite.CompositePatternDemo" />
       <module name="FirstProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designer.structure.decoratorAndProxy.*" />
+          <option name="PATTERN" value="designer.structure.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Demo" />
+      <module name="FirstProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBridgeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="designer.structure.bridge.MyBridgeDemo" />
+      <module name="FirstProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="designer.structure.bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -383,11 +314,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="Application.Bridge" />
+        <item itemvalue="Application.CompositePatternDemo" />
         <item itemvalue="Application.MyBridgeDemo" />
         <item itemvalue="Application.testSimpleFactory" />
-        <item itemvalue="Application.ProxyDemo" />
-        <item itemvalue="Application.InterfaceAdapterDemo" />
-        <item itemvalue="Application.FacadeDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -410,6 +341,15 @@
       <workItem from="1554339727873" duration="3264000" />
       <workItem from="1555493770929" duration="16000" />
       <workItem from="1555510431750" duration="3409000" />
+      <workItem from="1555666785073" duration="595000" />
+      <workItem from="1555986757030" duration="26000" />
+      <workItem from="1556070525495" duration="1858000" />
+      <workItem from="1556151799263" duration="3957000" />
+      <workItem from="1557324994170" duration="1484000" />
+      <workItem from="1557481446463" duration="598000" />
+      <workItem from="1557884414981" duration="1086000" />
+      <workItem from="1557912087583" duration="434000" />
+      <workItem from="1557995932506" duration="2277000" />
     </task>
     <task id="LOCAL-00001" summary="test git">
       <created>1553092491341</created>
@@ -453,11 +393,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555475366804</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="桥接模式--over">
+      <created>1555557176807</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555557176807</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39683000" />
+    <option name="totallyTimeSpent" value="55660000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,7 +418,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19951534" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22859451" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -480,17 +427,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" visible="true" weight="0.3260274" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49919224" weight="0.3260274" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.54113925" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901135" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4983845" weight="0.53424656" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4983845" weight="0.53150684" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49757674" weight="0.35479453" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49757674" visible="true" weight="0.35342467" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5016155" side_tool="true" weight="0.53424656" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32901135" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -603,77 +550,46 @@
     <MESSAGE value="设计模式 --builder demo" />
     <MESSAGE value="创建这模式 --over" />
     <MESSAGE value="适配器模式-接口方式" />
-    <option name="LAST_COMMIT_MESSAGE" value="适配器模式-接口方式" />
+    <MESSAGE value="桥接模式--over" />
+    <option name="LAST_COMMIT_MESSAGE" value="桥接模式--over" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Demo.java</url>
-          <line>57</line>
+          <line>70</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/designer/structure/composite/CompositePatternDemo.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/designer/structure/bridge/Bridge.java</url>
+          <line>40</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Demo.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Demo.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/designer/createFactory/builderpattern/Coke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/createFactory/builderpattern/Pepsi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/createFactory/builderpattern/Meal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/createFactory/builderpattern/MealBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/createFactory/builderpattern/TestBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/createFactory/builderpattern/Burger.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/AbstractFactory2.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/EmailFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/MessageFactory.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -755,16 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designer/structure/AdapterPattern/TargetInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -808,19 +714,6 @@
           <folding>
             <element signature="e#29568#29569#0" expanded="true" />
             <element signature="e#29634#29635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23820">
-          <caret line="1722" column="25" selection-start-line="1722" selection-start-column="25" selection-end-line="1722" selection-end-column="25" />
-          <folding>
-            <element signature="e#32818#32819#0" expanded="true" />
-            <element signature="e#32890#32891#0" expanded="true" />
-            <element signature="e#78587#78588#0" expanded="true" />
-            <element signature="e#78644#78645#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -961,17 +854,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/structure/facade/FacadeDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/designer/structure/readme">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        <state relative-caret-position="540">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/structure/readme">
+    <entry file="file://$PROJECT_DIR$/src/designer/structure/composite/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="24" column="57" lean-forward="true" selection-start-line="24" selection-start-column="57" selection-end-line="24" selection-end-column="57" />
+        <state relative-caret-position="480">
+          <caret line="39" selection-start-line="39" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designer/structure/composite/CompositePatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -982,40 +887,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/structure/bridge/SubSourceOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/structure/bridge/SubSourceTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding>
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designer/structure/bridge/Bridge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="465">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/time/LocalTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19425">
+          <caret line="1410" column="18" selection-start-line="1410" selection-start-column="18" selection-end-line="1410" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis/mybatisGenerator.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1023,17 +919,86 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-          <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/designer/readme">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="195">
+          <caret line="13" column="25" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designer/structure/bridge/SubSourceOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designer/structure/bridge/SubSourceTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/designer/structure/facade/FacadeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis/PageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis/DaoExampleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mybatis/PageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="803" column="21" selection-start-line="803" selection-start-column="21" selection-end-line="803" selection-end-column="21" />
+          <folding>
+            <element signature="e#32818#32819#0" expanded="true" />
+            <element signature="e#32890#32891#0" expanded="true" />
+            <element signature="e#78587#78588#0" expanded="true" />
+            <element signature="e#78644#78645#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="94" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
