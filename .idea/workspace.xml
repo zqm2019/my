@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0d9745d-d4e2-4eaa-9007-2dd47f991620" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/designer/BigDecimalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designer/structure/composite/CompositePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/designer/structure/composite/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designer/structure/bridge/Bridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designer/structure/bridge/Bridge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/designer/structure/readme" beforeDir="false" afterPath="$PROJECT_DIR$/src/designer/structure/readme" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Demo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="21" column="16" lean-forward="true" selection-start-line="94" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
+            <state relative-caret-position="15">
+              <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,10 +29,45 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/designer/BigDecimalDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+              <folding>
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#920#921#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
+              <folding>
+                <element signature="e#106317#106318#0" expanded="true" />
+                <element signature="e#106377#106378#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/math/RoundingMode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="304" column="14" selection-start-line="304" selection-start-column="14" selection-end-line="304" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
+            <state relative-caret-position="10185">
               <caret line="803" column="21" selection-start-line="803" selection-start-column="21" selection-end-line="803" selection-end-column="21" />
               <folding>
                 <element signature="e#32818#32819#0" expanded="true" />
@@ -123,7 +159,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/ReceiverFactory.java" />
         <option value="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/methodOne/ReceiverFactory.java" />
         <option value="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/methodOne/SenderFactory.java" />
         <option value="$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/methodOne/AbstractFactory.java" />
@@ -170,17 +205,18 @@
         <option value="$PROJECT_DIR$/src/designer/structure/composite/Employee.java" />
         <option value="$PROJECT_DIR$/src/designer/structure/readme" />
         <option value="$PROJECT_DIR$/src/designer/structure/bridge/Bridge.java" />
-        <option value="$PROJECT_DIR$/src/Demo.java" />
         <option value="$PROJECT_DIR$/src/mybatis/DaoExampleService.java" />
         <option value="$PROJECT_DIR$/src/mybatis/PageUtil.java" />
         <option value="$PROJECT_DIR$/src/mybatis/PageHelper.java" />
+        <option value="$PROJECT_DIR$/src/Demo.java" />
+        <option value="$PROJECT_DIR$/src/designer/BigDecimalDemo.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="710" />
+    <option name="height" value="709" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -208,6 +244,12 @@
             </path>
             <path>
               <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FirstProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="designer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FirstProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -219,7 +261,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558021721735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559712590398" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -349,7 +391,9 @@
       <workItem from="1557481446463" duration="598000" />
       <workItem from="1557884414981" duration="1086000" />
       <workItem from="1557912087583" duration="434000" />
-      <workItem from="1557995932506" duration="2277000" />
+      <workItem from="1557995932506" duration="3403000" />
+      <workItem from="1558415839998" duration="307000" />
+      <workItem from="1559705166254" duration="1181000" />
     </task>
     <task id="LOCAL-00001" summary="test git">
       <created>1553092491341</created>
@@ -400,11 +444,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555557176807</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="时间demo">
+      <created>1558021791494</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1558021791494</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55660000" />
+    <option name="totallyTimeSpent" value="58274000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,9 +467,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="724" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22859451" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23505655" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -433,9 +484,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901135" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4983845" weight="0.53150684" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4983845" weight="0.5300633" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49757674" visible="true" weight="0.35342467" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49757674" visible="true" weight="0.3528481" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5016155" side_tool="true" weight="0.53424656" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -551,14 +602,15 @@
     <MESSAGE value="创建这模式 --over" />
     <MESSAGE value="适配器模式-接口方式" />
     <MESSAGE value="桥接模式--over" />
-    <option name="LAST_COMMIT_MESSAGE" value="桥接模式--over" />
+    <MESSAGE value="时间demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="时间demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Demo.java</url>
-          <line>70</line>
+          <line>72</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -576,13 +628,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Demo.java</url>
-          <line>65</line>
+          <line>67</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Demo.java</url>
-          <line>31</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
@@ -590,23 +642,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/MessageFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/createFactory/abstractfactorydesigner/TestAbstractFactoryDesigner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/designer/createFactory/singleton/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/designer/createFactory/prototype/Prototype.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -904,14 +939,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mybatis/mybatisGenerator.xml">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/mybatis/mybatisGenerator.xml" />
+    <entry file="file://$PROJECT_DIR$/src/mybatis/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/mybatis/PageUtil.java" />
+    <entry file="file://$PROJECT_DIR$/src/mybatis/DaoExampleService.java" />
+    <entry file="file://$PROJECT_DIR$/src/mybatis/PageHelper.java" />
+    <entry file="file://$PROJECT_DIR$/src/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mybatis/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10185">
+          <caret line="803" column="21" selection-start-line="803" selection-start-column="21" selection-end-line="803" selection-end-column="21" />
+          <folding>
+            <element signature="e#32818#32819#0" expanded="true" />
+            <element signature="e#32890#32891#0" expanded="true" />
+            <element signature="e#78587#78588#0" expanded="true" />
+            <element signature="e#78644#78645#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -958,46 +1010,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mybatis/PageUtil.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/math/RoundingMode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="202">
+          <caret line="304" column="14" selection-start-line="304" selection-start-column="14" selection-end-line="304" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/mybatis/DaoExampleService.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/math/BigDecimal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="27" column="36" lean-forward="true" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/mybatis/PageHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/time/LocalDate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="803" column="21" selection-start-line="803" selection-start-column="21" selection-end-line="803" selection-end-column="21" />
+        <state relative-caret-position="195">
+          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
           <folding>
-            <element signature="e#32818#32819#0" expanded="true" />
-            <element signature="e#32890#32891#0" expanded="true" />
-            <element signature="e#78587#78588#0" expanded="true" />
-            <element signature="e#78644#78645#0" expanded="true" />
+            <element signature="e#106317#106318#0" expanded="true" />
+            <element signature="e#106377#106378#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Demo.java">
+    <entry file="file://$PROJECT_DIR$/src/designer/BigDecimalDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="94" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#920#921#0" expanded="true" />
           </folding>
         </state>
       </provider>
