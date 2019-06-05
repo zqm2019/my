@@ -8,6 +8,8 @@ import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 测试时间类的使用 ZoneId 时区
@@ -17,7 +19,7 @@ import java.util.Date;
  */
 public class Demo {
  static  String stringD= "2019-05-05";
-    public static void main(String[] args) {
+    public static void main1(String[] args) {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
         DateTimeFormatter dateTimeFormatter1 = DateTimeFormatter.ofPattern("yyyy-MM-dd");
@@ -175,6 +177,13 @@ public class Demo {
         calendar.add(Calendar.DATE, amount);
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         return simpleDateFormat.format(calendar.getTime());
+    }
+
+    public static void main(String[] args) {
+        Map<Integer,String> stringMap = new HashMap<>();
+        stringMap.put(1,"2");
+        System.out.println(stringMap.get(1));
+        System.out.println(stringMap.get(null));
     }
 
 }
