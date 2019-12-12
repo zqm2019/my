@@ -186,4 +186,9 @@ public class Demo {
         System.out.println(stringMap.get(null));
     }
 
+
+//    public static void main(String[] args) {
+//        System.out.println(LocalDateTime.of(LocalDate.now(), LocalTime.MIN));
+//    }
+
 }
